@@ -7,7 +7,7 @@
     <artifactId>plugin</artifactId>
     <version>4.2</version> <!-- or whatever the newest version available is -->
     <!--Check https://mvnrepository.com/artifact/org.jenkins-ci.plugins/plugin?repo=jenkins-releases-->
-    <relativePath />
+    <relativePath/>
   </parent>
 
   <name>Datadog Plugin</name>
@@ -85,7 +85,7 @@
     <dependency>
       <groupId>io.opentracing</groupId>
       <artifactId>opentracing-util</artifactId>
-      <version>0.32.0</version>
+      <version>0.33.0</version>
     </dependency>
 
     <!-- Datadog API -->
